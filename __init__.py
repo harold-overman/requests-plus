@@ -100,7 +100,7 @@ def _check_cryptography(cryptography_version):
         warnings.warn(warning, RequestsDependencyWarning)
 
 def _check_requests():
-        print("hi hallow world")
+      print("hi hellow world")
 try:
     check_compatibility(
         urllib3.__version__, chardet_version, charset_normalizer_version
